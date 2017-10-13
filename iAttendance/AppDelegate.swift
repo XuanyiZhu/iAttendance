@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ESTMonitoringV2ManagerDel
 
         
         self.monitoringManager = ESTMonitoringV2Manager(
-            desiredMeanTriggerDistance: 2.0, delegate: self)
+            desiredMeanTriggerDistance: 200.0, delegate: self)
         self.monitoringManager.startMonitoring(forIdentifiers: [
             "2fe9f9eab6f63a83403d83d5fdd5f338",
             "600b8a212b5931dd7dc79b47566a032f"])
